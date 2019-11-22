@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:text="Sign in"
+        android:textColor="#39559e"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/signin"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        />
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:text="Sign up"
+        android:textColor="#39559e"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/signup"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        />
+   <EditText
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:hint="Email"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="280dp"
+       android:inputType="textWebEmailAddress"
+       />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="380dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Sign in"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/custom_btn"
+        android:id="@+id/signinbwh"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
